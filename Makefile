@@ -1,4 +1,7 @@
 all: chmap
 
 chmap:
-	gcc -lasound chmap.c -o chmap
+	gcc chmap.c -lasound -o chmap
+
+clean:
+	rm chmap
